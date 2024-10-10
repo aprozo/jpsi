@@ -2,18 +2,17 @@
 FROM python:3.12-slim
 
 # Set the working directory in the container
-WORKDIR /usr/src/app
+WORKDIR /workspace
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential &&
-    rm -rf /var/lib/apt/lists/*
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
 
 # Install Jupyter and Python dependencies
 RUN pip install --no-cache-dir \
     jupyter \
     pandas \
-    scipy \
     numpy
 
 # Expose port for Jupyter notebook
