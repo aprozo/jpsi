@@ -13,7 +13,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN pip install --no-cache-dir \
     jupyter \
     pandas \
-    numpy
+    numpy \
+    matplotlib \
+    scipy
 
 # Expose port for Jupyter notebook
 #EXPOSE 8888
