@@ -1,20 +1,15 @@
 {
-    "name": "Jupyter with pandas and numpy",
     "build": {
-        "dockerfile": "Dockerfile",
-        "context": ".."
+        "dockerfile": "Dockerfile"
+    },
+    "hostRequirements": {
+        "cpus": 2
     },
     "customizations": {
         "vscode": {
             "extensions": [
-                "ms-python.python",
-                "ms-toolsai.jupyter"
+                "ms-toolsai.jupyter",
+                "ms-python.python"
             ]
         }
-    },
-    "forwardPorts": [
-        8888
-    ],
-    "postCreateCommand": "pip install --upgrade pip && pip install pandas numpy matplotlib scipy",
-    "remoteUser": "root"
-}
+    }
