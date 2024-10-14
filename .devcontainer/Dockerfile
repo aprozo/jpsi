@@ -16,7 +16,7 @@ RUN pip install --no-cache-dir \
     numpy
 
 # Expose port for Jupyter notebook
-EXPOSE 8888
+#EXPOSE 8888
 
 # Run Jupyter notebook
-CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--no-browser", "--allow-root"]
+#CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--no-browser", "--allow-root"]
