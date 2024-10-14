@@ -1,15 +1,18 @@
 {
+    "name": "Jupyter with pandas and numpy",
     "build": {
-        "dockerfile": "Dockerfile"
-    },
-    "hostRequirements": {
-        "cpus": 2
+        "dockerfile": "Dockerfile",
+        "context": ".."
     },
     "customizations": {
         "vscode": {
             "extensions": [
-                "ms-toolsai.jupyter",
-                "ms-python.python"
+                "ms-python.python",
+                "ms-toolsai.jupyter"
             ]
         }
-    }
+    },
+    "forwardPorts": [
+        8888
+    ]
+}
