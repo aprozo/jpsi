@@ -3,6 +3,7 @@ channels:
 dependencies:
   - python
   - numpy
+  - scipy
   - pip
   - pip:
     - pandas
