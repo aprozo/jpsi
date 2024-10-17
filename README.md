@@ -7,5 +7,5 @@ The schematic decay picture:
 
 One can easily launch it using Github Codespaces or Binder:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aprozo/jpsi_decay/HEAD)
-[![Github Codespace](https://img.shields.io/badge/open-GH_Codespaces-blue?logo=github)](https://codespaces.new/aprozo/jpsi_decay?quickstart=1)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aprozo/jpsi/HEAD)
+[![Github Codespace](https://img.shields.io/badge/open-GH_Codespaces-blue?logo=github)](https://codespaces.new/aprozo/jpsi?quickstart=1)
