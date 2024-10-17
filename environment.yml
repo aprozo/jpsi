@@ -1,10 +1,10 @@
 channels:
   - conda-forge
 dependencies:
-  - python
+  - root
+  - pyspark
+  - dask
+  - distributed
   - numpy
-  - scipy
-  - pip
-  - pip:
-    - pandas
-    - matplotlib
+  - pandas
+  - matplotlib

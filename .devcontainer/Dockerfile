@@ -1,24 +1,5 @@
-# Use an official Python runtime as a parent image
-FROM python:3.12-slim
+FROM rootproject/root:6.28.00-ubuntu22.04
 
-# Set the working directory in the container
-WORKDIR /workspace
+RUN apt-get update && apt-get install -y git python3-pip
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential \
-    && rm -rf /var/lib/apt/lists/*
-
-# Install Jupyter and Python dependencies
-RUN pip install --no-cache-dir \
-    jupyter \
-    pandas \
-    numpy \
-    matplotlib \
-    scipy
-
-# Expose port for Jupyter notebook
-#EXPOSE 8888
-
-# Run Jupyter notebook
-#CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--no-browser", "--allow-root"]
+RUN python3 -m pip install --upgrade wheel jupyter metakernel dask distributed pyspark numpy pandas
