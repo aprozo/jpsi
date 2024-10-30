@@ -9,7 +9,8 @@
         "vscode": {
             "extensions": [
                 "ms-toolsai.jupyter",
-                "ms-python.python"
+                "ms-python.python",
+                "albertopdrf.root-file-viewer"
             ]
         }
     }
