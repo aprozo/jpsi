@@ -1,17 +1,18 @@
 {
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
-    "hostRequirements": {
-        "cpus": 2
-    },
+    "name": "J/psi interactive lecture",
+    "build": { "dockerfile": "Dockerfile" },
+    "hostRequirements": { "cpus": 2, "memory": "8gb" },
     "customizations": {
         "vscode": {
             "extensions": [
                 "ms-toolsai.jupyter",
                 "ms-python.python",
                 "albertopdrf.root-file-viewer"
-            ]
+            ],
+            "settings": {
+                "jupyter.askForKernelRestart": false
+            }
         }
-    }
+    },
+    "postCreateCommand": "python3 -c 'import ROOT; print(\"ROOT\", ROOT.gROOT.GetVersion(), \"ready\")'"
 }

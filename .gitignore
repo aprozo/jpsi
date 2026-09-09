@@ -1,0 +1,4 @@
+# files produced while running the notebooks
+*.root
+.ipynb_checkpoints/
+__pycache__/

@@ -1,10 +1,16 @@
+# Used by Binder (repo2docker). Codespaces uses .devcontainer/ instead.
+name: jpsi
 channels:
   - conda-forge
 dependencies:
-  - root
-  - pyspark
-  - dask
-  - distributed
+  - python=3.12
+  - root=6.34
+  - notebook
+  - jupyterlab
+  - ipywidgets
   - numpy
   - pandas
   - matplotlib
+  - pip
+  - pip:
+    - pythia8mc      # PYTHIA 8 event generator, used on day 2 (pre-built wheel, no compilation)
