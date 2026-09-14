@@ -8,10 +8,14 @@ The schematic decay picture:
 
 <img src="https://github.com/user-attachments/assets/6bc622c3-8443-45f8-9126-fa9e1cf6ee1d" alt="go" width="200"/> 
 
+The lecture comes in two parts, meant to be done in this order (one per day):
+
 | | Notebook | What you do |
 |---|---|---|
-| Day 1 | [invariantMass.ipynb](invariantMass.ipynb) | measure the $J/\psi$ peak in real CMS data: invariant mass, histograms, fitting, uncertainties |
-| Day 2 | [simulation.ipynb](simulation.ipynb) | simulate $J/\psi$ mesons with PYTHIA 8, add a toy detector, compare with the data |
+| **Part 1** (Day 1) | [invariantMass.ipynb](invariantMass.ipynb) | measure the $J/\psi$ peak in real CMS data: invariant mass, histograms, fitting, uncertainties |
+| **Part 2** (Day 2) | [simulation.ipynb](simulation.ipynb) | simulate $J/\psi$ mesons with PYTHIA 8, add a toy detector, compare with the data |
+
+Part 2 starts from the numbers measured in Part 1, so run [invariantMass.ipynb](invariantMass.ipynb) first.
 
 The CMS Open Data files ([record 5203](https://opendata.cern.ch/record/5203), [record 5208](https://opendata.cern.ch/record/5208)) are included in [data/](data/)
 
