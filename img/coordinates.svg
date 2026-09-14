@@ -1,54 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="420" viewBox="0 0 780 420" font-family="Helvetica, Arial, sans-serif" font-size="17">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440" font-family="Helvetica, Arial, sans-serif" font-size="16">
   <defs>
-    <marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse">
-      <path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/>
-    </marker>
     <marker id="ah-gray" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
     <marker id="ah-blue" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#1f5fbf"/></marker>
     <marker id="ah-red" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#d1352b"/></marker>
+    <marker id="ah-purple" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#7b3fa0"/></marker>
   </defs>
-  <rect width="780" height="420" fill="white"/>
+  <rect width="800" height="440" fill="white"/>
 
-  <!-- transverse (x-y) plane, drawn in oblique projection -->
-  <polygon points="348,276 234,362 234,152 348,66" fill="#1f5fbf" fill-opacity="0.10" stroke="#1f5fbf" stroke-opacity="0.35" stroke-dasharray="4 3"/>
-  <text x="250" y="140" fill="#1f5fbf" font-size="14" font-style="italic">transverse plane (x, y)</text>
+  <!-- transverse (x-y) plane through the collision point -->
+  <polygon points="354.0,272.0 228.0,366.5 228.0,156.5 354.0,62.0" fill="#1f5fbf" fill-opacity="0.10" stroke="#1f5fbf" stroke-opacity="0.35" stroke-dasharray="4 3"/>
+  <text x="234" y="150" fill="#1f5fbf" font-size="13" font-style="italic">transverse plane (x, y)</text>
 
   <!-- beam line and axes -->
   <line x1="40" y1="250" x2="330" y2="250" stroke="#999" stroke-width="2"/>
-  <line x1="330" y1="250" x2="655" y2="250" stroke="#555" stroke-width="2" marker-end="url(#ah-gray)"/>
-  <text x="560" y="240" fill="#333">z (beam axis)</text>
-  <circle cx="55" cy="250" r="7" fill="#e8b23a" stroke="#8a6410"/><text x="45" y="235" font-size="13" fill="#8a6410">proton</text>
-  <circle cx="640" cy="250" r="7" fill="#e8b23a" stroke="#8a6410"/><text x="615" y="275" font-size="13" fill="#8a6410">proton</text>
-  <line x1="330" y1="250" x2="330" y2="40" stroke="#555" stroke-width="2" marker-end="url(#ah-gray)"/>
-  <text x="340" y="52" fill="#333">y</text>
-  <line x1="330" y1="250" x2="150" y2="385" stroke="#555" stroke-width="2" marker-end="url(#ah-gray)"/>
-  <text x="135" y="405" fill="#333">x</text>
+  <line x1="330" y1="250" x2="665" y2="250" stroke="#555" stroke-width="2" marker-end="url(#ah-gray)"/>
+  <text x="600" y="238" fill="#333">z (beam axis)</text>
+  <circle cx="55" cy="250" r="7" fill="#e8b23a" stroke="#8a6410"/><text x="35" y="236" font-size="13" fill="#8a6410">proton</text>
+  <circle cx="650" cy="250" r="7" fill="#e8b23a" stroke="#8a6410"/><text x="625" y="276" font-size="13" fill="#8a6410">proton</text>
+  <line x1="330" y1="250" x2="330.0" y2="35.0" stroke="#555" stroke-width="2" marker-end="url(#ah-gray)"/>
+  <text x="340" y="47" fill="#333">y</text>
+  <line x1="330" y1="250" x2="150.0" y2="385.0" stroke="#555" stroke-width="2" marker-end="url(#ah-gray)"/>
+  <text x="134" y="403" fill="#333">x</text>
   <circle cx="330" cy="250" r="4" fill="#222"/>
   <text x="338" y="272" font-size="13" fill="#222">collision</text>
 
-  <!-- projections (dashed helpers) -->
-  <line x1="258" y1="174" x2="458" y2="174" stroke="#888" stroke-dasharray="5 4"/>
-  <line x1="258" y1="174" x2="258" y2="304" stroke="#888" stroke-dasharray="5 4"/>
-  <line x1="330" y1="250" x2="258" y2="304" stroke="#888" stroke-dasharray="5 4"/>
+  <!-- projection helpers: the box with p as its diagonal -->
+  <line x1="458.0" y1="174.0" x2="258.0" y2="174.0" stroke="#888" stroke-dasharray="5 4"/>
+  <line x1="458.0" y1="174.0" x2="530.0" y2="250.0" stroke="#888" stroke-dasharray="5 4"/>
+  <line x1="258.0" y1="174.0" x2="258.0" y2="304.0" stroke="#888" stroke-dasharray="5 4"/>
+  <line x1="258.0" y1="174.0" x2="330.0" y2="120.0" stroke="#888" stroke-dasharray="5 4"/>
+  <circle cx="258.0" cy="304.0" r="3" fill="#555"/><text x="228" y="308" font-size="13" fill="#555">p<tspan font-size="10" dy="3">x</tspan></text>
+  <circle cx="330.0" cy="120.0" r="3" fill="#555"/><text x="338" y="124" font-size="13" fill="#555">p<tspan font-size="10" dy="3">y</tspan></text>
 
-  <!-- momentum vector p and its transverse part pT -->
-  <line x1="330" y1="250" x2="458" y2="174" stroke="#1f5fbf" stroke-width="3.5" marker-end="url(#ah-blue)"/>
+  <!-- pz along the beam axis -->
+  <line x1="330" y1="250" x2="530.0" y2="250.0" stroke="#7b3fa0" stroke-width="3.5" marker-end="url(#ah-purple)"/>
+  <text x="422" y="272" fill="#7b3fa0" font-weight="bold" font-size="17">p<tspan font-size="12" dy="4">z</tspan></text>
+
+  <!-- p and pT -->
+  <line x1="330" y1="250" x2="458.0" y2="174.0" stroke="#1f5fbf" stroke-width="3.5" marker-end="url(#ah-blue)"/>
   <text x="468" y="170" fill="#1f5fbf" font-weight="bold" font-size="20">p</text>
-  <line x1="330" y1="250" x2="258" y2="174" stroke="#d1352b" stroke-width="3.5" marker-end="url(#ah-red)"/>
-  <text x="222" y="170" fill="#d1352b" font-weight="bold" font-size="20">p<tspan font-size="14" dy="5">T</tspan></text>
+  <line x1="330" y1="250" x2="258.0" y2="174.0" stroke="#d1352b" stroke-width="3.5" marker-end="url(#ah-red)"/>
+  <text x="220" y="170" fill="#d1352b" font-weight="bold" font-size="20">p<tspan font-size="14" dy="5">T</tspan></text>
 
-  <!-- angles -->
-  <line x1="458" y1="174" x2="458" y2="250" stroke="#888" stroke-dasharray="5 4"/>
-  <path d="M410,250 A80,80 0 0 0 399,209" fill="none" stroke="#2a8f3c" stroke-width="2.2"/>
-  <text x="412" y="232" fill="#2a8f3c" font-size="20">θ</text>
-  <path d="M294,277 Q287,250 306,224" fill="none" stroke="#2a8f3c" stroke-width="2"/>
-  <text x="268" y="262" fill="#2a8f3c" font-size="19">φ</text>
+  <!-- angles, drawn as true arcs in 3D and projected -->
+  <polyline points="425.0,250.0 424.0,249.0 423.0,248.0 422.0,247.0 420.8,246.1 419.7,245.1 418.4,244.1 417.1,243.1 415.8,242.2 414.4,241.2 413.0,240.2 411.5,239.3 410.0,238.3 408.4,237.4 406.8,236.5 405.1,235.5 403.4,234.6 401.7,233.7 399.9,232.8 398.1,231.9 396.2,231.1 394.3,230.2 392.3,229.3 390.3,228.5 388.3,227.7 386.3,226.8 384.2,226.0 382.1,225.2 379.9,224.5 377.7,223.7 375.5,223.0" fill="none" stroke="#2a8f3c" stroke-width="2.2"/>
+  <text x="393" y="245" fill="#2a8f3c" font-size="20">θ</text>
+  <polyline points="294.0,277.0 294.0,275.3 294.1,273.7 294.1,272.0 294.2,270.2 294.3,268.5 294.5,266.8 294.7,265.0 294.9,263.2 295.1,261.5 295.4,259.7 295.6,257.9 295.9,256.1 296.3,254.3 296.6,252.5 297.0,250.7 297.4,248.9 297.9,247.0 298.3,245.2 298.8,243.4 299.3,241.6 299.8,239.8 300.4,238.1 301.0,236.3 301.6,234.5 302.2,232.8 302.8,231.0 303.5,229.3 304.2,227.6 304.9,225.9 305.6,224.2" fill="none" stroke="#2a8f3c" stroke-width="2.2"/>
+  <text x="267" y="259" fill="#2a8f3c" font-size="20">φ</text>
 
   <!-- legend -->
   <g font-size="14" fill="#333">
-    <text x="470" y="320"><tspan fill="#1f5fbf" font-weight="bold">p</tspan>  momentum of the muon</text>
-    <text x="470" y="342"><tspan fill="#d1352b" font-weight="bold">p<tspan font-size="11" dy="4">T</tspan></tspan><tspan dy="-4">  its part perpendicular to the beam</tspan></text>
-    <text x="470" y="364"><tspan fill="#2a8f3c" font-weight="bold">θ</tspan>  angle from the beam, η = −ln tan(θ/2)</text>
-    <text x="470" y="386"><tspan fill="#2a8f3c" font-weight="bold">φ</tspan>  angle around the beam</text>
+    <text x="470" y="318"><tspan fill="#1f5fbf" font-weight="bold">p</tspan>  momentum of the muon</text>
+    <text x="470" y="341"><tspan fill="#d1352b" font-weight="bold">p<tspan font-size="11" dy="4">T</tspan></tspan><tspan dy="-4">  its part in the transverse plane</tspan></text>
+    <text x="470" y="364"><tspan fill="#7b3fa0" font-weight="bold">p<tspan font-size="11" dy="4">z</tspan></tspan><tspan dy="-4">  its part along the beam</tspan></text>
+    <text x="470" y="387"><tspan fill="#2a8f3c" font-weight="bold">θ</tspan>  angle between p and the beam</text>
+    <text x="470" y="410"><tspan fill="#2a8f3c" font-weight="bold">φ</tspan>  angle between x and p<tspan font-size="11" dy="4">T</tspan><tspan dy="-4"> in the plane</tspan></text>
   </g>
+  <text x="40" y="426" fill="#555" font-size="13">η = −ln tan(θ/2)</text>
 </svg>
