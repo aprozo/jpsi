@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="380" viewBox="0 0 640 380" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<rect width="640" height="380" fill="white"/>
+<defs><marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<text x="20" y="28" font-size="17" font-weight="bold" fill="#222">What a histogram is</text>
+<rect x="90" y="260.0" width="36" height="40.0" fill="#1f5fbf" fill-opacity="0.25" stroke="#1f5fbf"/>
+<line x1="108.0" y1="251.1" x2="108.0" y2="268.9" stroke="#222" stroke-width="1.5"/>
+<line x1="103.0" y1="251.1" x2="113.0" y2="251.1" stroke="#222" stroke-width="1.5"/><line x1="103.0" y1="268.9" x2="113.0" y2="268.9" stroke="#222" stroke-width="1.5"/>
+<rect x="126" y="256.0" width="36" height="44.0" fill="#1f5fbf" fill-opacity="0.25" stroke="#1f5fbf"/>
+<line x1="144.0" y1="246.6" x2="144.0" y2="265.4" stroke="#222" stroke-width="1.5"/>
+<line x1="139.0" y1="246.6" x2="149.0" y2="246.6" stroke="#222" stroke-width="1.5"/><line x1="139.0" y1="265.4" x2="149.0" y2="265.4" stroke="#222" stroke-width="1.5"/>
+<rect x="162" y="250.0" width="36" height="50.0" fill="#1f5fbf" fill-opacity="0.25" stroke="#1f5fbf"/>
+<line x1="180.0" y1="240.0" x2="180.0" y2="260.0" stroke="#222" stroke-width="1.5"/>
+<line x1="175.0" y1="240.0" x2="185.0" y2="240.0" stroke="#222" stroke-width="1.5"/><line x1="175.0" y1="260.0" x2="185.0" y2="260.0" stroke="#222" stroke-width="1.5"/>
+<rect x="198" y="240.0" width="36" height="60.0" fill="#1f5fbf" fill-opacity="0.25" stroke="#1f5fbf"/>
+<line x1="216.0" y1="229.0" x2="216.0" y2="251.0" stroke="#222" stroke-width="1.5"/>
+<line x1="211.0" y1="229.0" x2="221.0" y2="229.0" stroke="#222" stroke-width="1.5"/><line x1="211.0" y1="251.0" x2="221.0" y2="251.0" stroke="#222" stroke-width="1.5"/>
+<rect x="234" y="210.0" width="36" height="90.0" fill="#1f5fbf" fill-opacity="0.25" stroke="#1f5fbf"/>
+<line x1="252.0" y1="196.6" x2="252.0" y2="223.4" stroke="#222" stroke-width="1.5"/>
+<line x1="247.0" y1="196.6" x2="257.0" y2="196.6" stroke="#222" stroke-width="1.5"/><line x1="247.0" y1="223.4" x2="257.0" y2="223.4" stroke="#222" stroke-width="1.5"/>
+<rect x="270" y="140.0" width="36" height="160.0" fill="#1f5fbf" fill-opacity="0.25" stroke="#1f5fbf"/>
+<line x1="288.0" y1="122.1" x2="288.0" y2="157.9" stroke="#222" stroke-width="1.5"/>
+<line x1="283.0" y1="122.1" x2="293.0" y2="122.1" stroke="#222" stroke-width="1.5"/><line x1="283.0" y1="157.9" x2="293.0" y2="157.9" stroke="#222" stroke-width="1.5"/>
+<rect x="306" y="100.0" width="36" height="200.0" fill="#1f5fbf" fill-opacity="0.25" stroke="#1f5fbf"/>
+<line x1="324.0" y1="80.0" x2="324.0" y2="120.0" stroke="#222" stroke-width="1.5"/>
+<line x1="319.0" y1="80.0" x2="329.0" y2="80.0" stroke="#222" stroke-width="1.5"/><line x1="319.0" y1="120.0" x2="329.0" y2="120.0" stroke="#222" stroke-width="1.5"/>
+<rect x="342" y="140.0" width="36" height="160.0" fill="#1f5fbf" fill-opacity="0.25" stroke="#1f5fbf"/>
+<line x1="360.0" y1="122.1" x2="360.0" y2="157.9" stroke="#222" stroke-width="1.5"/>
+<line x1="355.0" y1="122.1" x2="365.0" y2="122.1" stroke="#222" stroke-width="1.5"/><line x1="355.0" y1="157.9" x2="365.0" y2="157.9" stroke="#222" stroke-width="1.5"/>
+<rect x="378" y="210.0" width="36" height="90.0" fill="#1f5fbf" fill-opacity="0.25" stroke="#1f5fbf"/>
+<line x1="396.0" y1="196.6" x2="396.0" y2="223.4" stroke="#222" stroke-width="1.5"/>
+<line x1="391.0" y1="196.6" x2="401.0" y2="196.6" stroke="#222" stroke-width="1.5"/><line x1="391.0" y1="223.4" x2="401.0" y2="223.4" stroke="#222" stroke-width="1.5"/>
+<rect x="414" y="240.0" width="36" height="60.0" fill="#1f5fbf" fill-opacity="0.25" stroke="#1f5fbf"/>
+<line x1="432.0" y1="229.0" x2="432.0" y2="251.0" stroke="#222" stroke-width="1.5"/>
+<line x1="427.0" y1="229.0" x2="437.0" y2="229.0" stroke="#222" stroke-width="1.5"/><line x1="427.0" y1="251.0" x2="437.0" y2="251.0" stroke="#222" stroke-width="1.5"/>
+<rect x="450" y="250.0" width="36" height="50.0" fill="#1f5fbf" fill-opacity="0.25" stroke="#1f5fbf"/>
+<line x1="468.0" y1="240.0" x2="468.0" y2="260.0" stroke="#222" stroke-width="1.5"/>
+<line x1="463.0" y1="240.0" x2="473.0" y2="240.0" stroke="#222" stroke-width="1.5"/><line x1="463.0" y1="260.0" x2="473.0" y2="260.0" stroke="#222" stroke-width="1.5"/>
+<rect x="486" y="256.0" width="36" height="44.0" fill="#1f5fbf" fill-opacity="0.25" stroke="#1f5fbf"/>
+<line x1="504.0" y1="246.6" x2="504.0" y2="265.4" stroke="#222" stroke-width="1.5"/>
+<line x1="499.0" y1="246.6" x2="509.0" y2="246.6" stroke="#222" stroke-width="1.5"/><line x1="499.0" y1="265.4" x2="509.0" y2="265.4" stroke="#222" stroke-width="1.5"/>
+<line x1="80" y1="300" x2="552" y2="300" stroke="#333" stroke-width="1.5" marker-end="url(#ah)"/>
+<line x1="80" y1="300" x2="80" y2="60" stroke="#333" stroke-width="1.5" marker-end="url(#ah)"/>
+<text x="532" y="322" fill="#333">mass M</text>
+<text x="86" y="56" fill="#333">events</text>
+<line x1="162" y1="300" x2="162" y2="305" stroke="#333"/><text x="162" y="318" text-anchor="middle" fill="#333" font-size="12">3.0</text>
+<line x1="306" y1="300" x2="306" y2="305" stroke="#333"/><text x="306" y="318" text-anchor="middle" fill="#333" font-size="12">3.1</text>
+<line x1="450" y1="300" x2="450" y2="305" stroke="#333"/><text x="450" y="318" text-anchor="middle" fill="#333" font-size="12">3.2</text>
+<path d="M198,328 v6 h36 v-6" fill="none" stroke="#c9541c" stroke-width="1.5"/>
+<text x="216.0" y="348" text-anchor="middle" fill="#c9541c" font-size="12">one bin (width 0.01)</text>
+<line x1="332.0" y1="75.0" x2="414.0" y2="40.0" stroke="#555" stroke-width="1"/>
+<text x="418.0" y="36.0" fill="#222" font-size="12">N = 100 events fell into this bin</text>
+<text x="418.0" y="52.0" fill="#222" font-size="12">error bar = √N = 10, about 10 %</text>
+<line x1="108.0" y1="248.0" x2="138.0" y2="190.0" stroke="#555" stroke-width="1"/>
+<text x="142.0" y="186.0" fill="#222" font-size="12">N = 20, error √20 ≈ 4.5, about 22 %</text>
+<text x="90" y="366" fill="#555" font-size="12">every event gives one mass value, and one entry in exactly one bin</text>
+</svg>
