@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg xmlns="http://www.w3.org/2000/svg" width="990" height="300" viewBox="0 0 990 300" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <defs>
     <marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
   </defs>
-  <rect width="900" height="300" fill="white"/>
+  <rect width="990" height="300" fill="white"/>
 
   <!-- row labels -->
   <text x="14" y="88" fill="#1f5fbf" font-weight="bold" font-size="15">Real data</text>
@@ -11,42 +11,42 @@
 
   <!-- top row -->
   <g stroke="#1f5fbf" stroke-width="1.8" fill="#1f5fbf" fill-opacity="0.10">
-    <rect x="110" y="50" width="150" height="70" rx="10"/>
-    <rect x="310" y="50" width="150" height="70" rx="10"/>
-    <rect x="510" y="50" width="150" height="70" rx="10"/>
+    <rect x="110" y="50" width="180" height="70" rx="10"/>
+    <rect x="330" y="50" width="180" height="70" rx="10"/>
+    <rect x="550" y="50" width="180" height="70" rx="10"/>
   </g>
   <g fill="#123c7a" text-anchor="middle">
-    <text x="185" y="80" font-weight="bold">LHC collisions</text><text x="185" y="100">7 TeV, 2011</text>
-    <text x="385" y="80" font-weight="bold">CMS detector</text><text x="385" y="100">measures the muons</text>
-    <text x="585" y="80" font-weight="bold">data file</text><text x="524" y="100" text-anchor="start">p</text><text x="533" y="103" font-size="10" text-anchor="start">T</text><text x="541" y="100" text-anchor="start">, η, φ per muon</text>
+    <text x="200" y="80" font-weight="bold">LHC collisions</text><text x="200" y="100">7 TeV, 2011</text>
+    <text x="420" y="80" font-weight="bold">CMS detector</text><text x="420" y="100">measures the muons</text>
+    <text x="640" y="80" font-weight="bold">data file</text><text x="580" y="100" text-anchor="start">p</text><text x="589" y="103" font-size="10" text-anchor="start">T</text><text x="597" y="100" text-anchor="start">, η, φ per muon</text>
   </g>
 
   <!-- bottom row -->
   <g stroke="#c9541c" stroke-width="1.8" fill="#c9541c" fill-opacity="0.10">
-    <rect x="110" y="185" width="150" height="70" rx="10"/>
-    <rect x="310" y="185" width="150" height="70" rx="10"/>
-    <rect x="510" y="185" width="150" height="70" rx="10"/>
+    <rect x="110" y="185" width="180" height="70" rx="10"/>
+    <rect x="330" y="185" width="180" height="70" rx="10"/>
+    <rect x="550" y="185" width="180" height="70" rx="10"/>
   </g>
   <g fill="#7a300c" text-anchor="middle">
-    <text x="185" y="215" font-weight="bold">PYTHIA</text><text x="185" y="235">simulated collisions</text>
-    <text x="385" y="215" font-weight="bold">toy detector</text><text x="385" y="235">resolution + acceptance</text>
-    <text x="585" y="215" font-weight="bold">simulated muons</text><text x="524" y="235" text-anchor="start">p</text><text x="533" y="238" font-size="10" text-anchor="start">T</text><text x="541" y="235" text-anchor="start">, η, φ per muon</text>
+    <text x="200" y="215" font-weight="bold">PYTHIA</text><text x="200" y="235">simulated collisions</text>
+    <text x="420" y="215" font-weight="bold">toy detector</text><text x="420" y="235" font-size="13">resolution + acceptance</text>
+    <text x="640" y="215" font-weight="bold">simulated muons</text><text x="580" y="235" text-anchor="start">p</text><text x="589" y="238" font-size="10" text-anchor="start">T</text><text x="597" y="235" text-anchor="start">, η, φ per muon</text>
   </g>
 
   <!-- arrows -->
   <g stroke="#555" stroke-width="2" marker-end="url(#ah)">
-    <line x1="262" y1="85" x2="306" y2="85"/><line x1="462" y1="85" x2="506" y2="85"/>
-    <line x1="262" y1="220" x2="306" y2="220"/><line x1="462" y1="220" x2="506" y2="220"/>
-    <line x1="662" y1="85" x2="718" y2="130"/><line x1="662" y1="220" x2="718" y2="175"/>
+    <line x1="292" y1="85" x2="326" y2="85"/><line x1="512" y1="85" x2="546" y2="85"/>
+    <line x1="292" y1="220" x2="326" y2="220"/><line x1="512" y1="220" x2="546" y2="220"/>
+    <line x1="732" y1="85" x2="768" y2="130"/><line x1="732" y1="220" x2="768" y2="175"/>
   </g>
 
   <!-- analysis box -->
-  <rect x="720" y="115" width="160" height="75" rx="10" fill="#2a8f3c" fill-opacity="0.12" stroke="#2a8f3c" stroke-width="1.8"/>
+  <rect x="770" y="115" width="200" height="75" rx="10" fill="#2a8f3c" fill-opacity="0.12" stroke="#2a8f3c" stroke-width="1.8"/>
   <g fill="#175224" text-anchor="middle">
-    <text x="800" y="140" font-weight="bold">the same analysis</text>
-    <text x="800" y="160">histogram + fit (part 1)</text>
-    <text x="800" y="178">→ compare</text>
+    <text x="870" y="140" font-weight="bold">the same analysis</text>
+    <text x="870" y="160">histogram + fit (part 1)</text>
+    <text x="870" y="178">→ compare</text>
   </g>
 
-  <text x="450" y="150" text-anchor="middle" fill="#555" font-size="13" font-style="italic">the simulation knows the truth (the mass we put in), the data does not</text>
+  <text x="470" y="150" text-anchor="middle" fill="#555" font-size="13" font-style="italic">the simulation knows the truth (the mass we put in), the data does not</text>
 </svg>

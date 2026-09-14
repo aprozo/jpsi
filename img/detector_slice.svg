@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="360" viewBox="0 0 800 360" font-family="Helvetica, Arial, sans-serif" font-size="13">
-<rect width="800" height="360" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="360" viewBox="0 0 860 360" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<rect width="860" height="360" fill="white"/>
 <text x="20" y="28" font-size="17" font-weight="bold" fill="#222">A slice of CMS, from the collision point outwards</text>
 <rect x="90" y="50" width="115" height="212" fill="#e6e6e6" stroke="#777" stroke-width="1"/>
 <rect x="205" y="50" width="70" height="212" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1"/>
@@ -22,13 +22,13 @@
 <text x="555" y="296" text-anchor="middle" fill="#555" font-size="11">only muons get this far</text>
 <circle cx="60" cy="156" r="5" fill="#222"/><text x="60" y="180" text-anchor="middle" fill="#222" font-size="12">collision</text>
 <path d="M60,156 Q380,86 700,51" fill="none" stroke="#1f5fbf" stroke-width="3"/>
-<text x="470" y="72" fill="#1f5fbf" font-weight="bold" font-size="14">muon</text>
-<text x="520" y="72" fill="#1f5fbf" font-size="12">seen in the tracker and the muon chambers</text>
+<text x="708" y="58" fill="#1f5fbf" font-weight="bold" font-size="14">muon</text>
+<text x="708" y="74" fill="#1f5fbf" font-size="11">seen in the tracker</text><text x="708" y="88" fill="#1f5fbf" font-size="11">and in the muon chambers</text>
 <path d="M60,156 Q150,161 215,196" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
 <ellipse cx="240" cy="208" rx="24" ry="14" fill="#2e7d32" fill-opacity="0.35"/>
-<text x="240" y="236" text-anchor="middle" fill="#2e7d32" font-size="12">electron</text>
+<text x="240" y="250" text-anchor="middle" fill="#2e7d32" font-size="12">electron</text>
 <path d="M60,156 L280,248" fill="none" stroke="#c9541c" stroke-width="2.5"/>
 <ellipse cx="318" cy="256" rx="34" ry="16" fill="#c9541c" fill-opacity="0.35"/>
-<text x="330" y="232" fill="#c9541c" font-size="12">pion (hadron)</text>
+<text x="330" y="226" fill="#c9541c" font-size="12">pion (hadron)</text>
 <text x="20" y="338" fill="#333" font-size="12">In the data file, type G (global) = a muon seen in the tracker and the muon chambers; type T = seen in the tracker only.</text>
 </svg>

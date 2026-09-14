@@ -10,7 +10,7 @@
   <rect width="780" height="420" fill="white"/>
 
   <!-- transverse (x-y) plane, drawn in oblique projection -->
-  <polygon points="366,263 234,362 234,152 366,53" fill="#1f5fbf" fill-opacity="0.10" stroke="#1f5fbf" stroke-opacity="0.35" stroke-dasharray="4 3"/>
+  <polygon points="348,276 234,362 234,152 348,66" fill="#1f5fbf" fill-opacity="0.10" stroke="#1f5fbf" stroke-opacity="0.35" stroke-dasharray="4 3"/>
   <text x="250" y="140" fill="#1f5fbf" font-size="14" font-style="italic">transverse plane (x, y)</text>
 
   <!-- beam line and axes -->
@@ -38,8 +38,9 @@
   <text x="222" y="170" fill="#d1352b" font-weight="bold" font-size="20">p<tspan font-size="14" dy="5">T</tspan></text>
 
   <!-- angles -->
-  <path d="M372,250 A42,42 0 0 0 366,229" fill="none" stroke="#2a8f3c" stroke-width="2"/>
-  <text x="380" y="238" fill="#2a8f3c" font-size="19">θ</text>
+  <line x1="458" y1="174" x2="458" y2="250" stroke="#888" stroke-dasharray="5 4"/>
+  <path d="M410,250 A80,80 0 0 0 399,209" fill="none" stroke="#2a8f3c" stroke-width="2.2"/>
+  <text x="412" y="232" fill="#2a8f3c" font-size="20">θ</text>
   <path d="M294,277 Q287,250 306,224" fill="none" stroke="#2a8f3c" stroke-width="2"/>
   <text x="268" y="262" fill="#2a8f3c" font-size="19">φ</text>
 

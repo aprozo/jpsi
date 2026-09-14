@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="295" viewBox="0 0 560 295" font-family="Helvetica, Arial, sans-serif" font-size="17">
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="295" viewBox="0 0 620 295" font-family="Helvetica, Arial, sans-serif" font-size="17">
   <defs>
     <marker id="fa" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L9,4.5 L0,9 z" fill="#222"/></marker>
   </defs>
-  <rect width="560" height="295" fill="white"/>
+  <rect width="620" height="295" fill="white"/>
 
   <!-- the bound state -->
   <ellipse cx="135" cy="135" rx="105" ry="78" fill="#e8b23a" fill-opacity="0.15" stroke="#b07f10" stroke-dasharray="6 4" stroke-width="1.5"/>
-  <text x="135" y="232" text-anchor="middle" fill="#8a6410" font-size="15">J/ψ = a charm quark and its antiquark</text>
-  <text x="135" y="252" text-anchor="middle" fill="#8a6410" font-size="15">mass 3.097 GeV/c²</text>
+  <text x="190" y="236" text-anchor="middle" fill="#8a6410" font-size="14">J/ψ = a charm quark and its antiquark</text>
+  <text x="190" y="254" text-anchor="middle" fill="#8a6410" font-size="14">mass 3.097 GeV/c²</text>
 
   <!-- quark lines with mid arrows -->
   <line x1="60" y1="85" x2="130" y2="110" stroke="#222" stroke-width="2.2"/>
@@ -27,10 +27,10 @@
   <line x1="410" y1="80" x2="490" y2="26" stroke="#1f5fbf" stroke-width="2.2"/>
   <line x1="490" y1="244" x2="410" y2="190" stroke="#1f5fbf" stroke-width="2.2" marker-end="url(#fa)"/>
   <line x1="410" y1="190" x2="328" y2="135" stroke="#1f5fbf" stroke-width="2.2"/>
-  <text x="500" y="30" fill="#1f5fbf" font-size="19">μ<tspan font-size="13" dy="-8">−</tspan></text>
-  <text x="500" y="252" fill="#1f5fbf" font-size="19">μ<tspan font-size="13" dy="-8">+</tspan></text>
+  <text x="500" y="30" fill="#1f5fbf" font-size="19">μ⁻</text>
+  <text x="500" y="252" fill="#1f5fbf" font-size="19">μ⁺</text>
   <text x="440" y="145" text-anchor="middle" fill="#555" font-size="13">the two muons</text>
   <text x="440" y="162" text-anchor="middle" fill="#555" font-size="13">CMS measures</text>
 
-  <text x="280" y="284" text-anchor="middle" fill="#444" font-size="13">the J/ψ lives only 10<tspan font-size="9" dy="-6">−20</tspan><tspan dy="6"> s and never reaches the detector: we only see the two muons</tspan></text>
+  <text x="310" y="286" text-anchor="middle" fill="#444" font-size="12">the J/ψ lives only 10⁻²⁰ s and never reaches the detector: we only see the two muons</text>
 </svg>
