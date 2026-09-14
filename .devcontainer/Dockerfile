@@ -2,7 +2,7 @@
 # https://hub.docker.com/r/rootproject/root/tags  (6.34.00-ubuntu24.04, 6.36.00-ubuntu25.04, ...)
 #
 # This image is built and tested by .github/workflows/build-image.yml and published to
-# ghcr.io/aprozo/jpsi, which devcontainer.json uses. Codespaces never builds it itself.
+# ghcr.io/aprozo/jpsi_decay, which devcontainer.json uses. Codespaces never builds it itself.
 FROM rootproject/root:6.34.00-ubuntu24.04
 
 # numpy/pandas/matplotlib come from Ubuntu: the base image already has Ubuntu's numpy 1.26 (used by ROOT),

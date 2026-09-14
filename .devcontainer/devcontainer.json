@@ -1,6 +1,6 @@
 {
     "name": "J/psi interactive lecture",
-    "image": "ghcr.io/aprozo/jpsi:latest",
+    "image": "ghcr.io/aprozo/jpsi_decay:latest",
     "hostRequirements": { "cpus": 2, "memory": "8gb", "storage": "32gb" },
     "waitFor": "postCreateCommand",
     "customizations": {
