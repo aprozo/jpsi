@@ -36,3 +36,5 @@ conda env create -f environment.yml
 conda activate jpsi
 jupyter lab
 ```
+
+**Then open the notebooks.** Whichever of the three you choose, the repository and the CMS data files are already there, ROOT and PYTHIA are installed, and nothing else has to be set up. Open [invariantMass.ipynb](invariantMass.ipynb) (**Part 1**) and run the cells from the top with `Shift+Enter`, then [simulation.ipynb](simulation.ipynb) (**Part 2**). Codespaces opens the notebooks in VS Code, Binder and a local install in JupyterLab; the notebooks behave the same in both.
