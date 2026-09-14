@@ -1,7 +1,8 @@
 {
     "name": "J/psi interactive lecture",
-    "build": { "dockerfile": "Dockerfile" },
-    "hostRequirements": { "cpus": 2, "memory": "8gb" },
+    "image": "ghcr.io/aprozo/jpsi:latest",
+    "hostRequirements": { "cpus": 2, "memory": "8gb", "storage": "32gb" },
+    "waitFor": "postCreateCommand",
     "customizations": {
         "vscode": {
             "extensions": [
@@ -14,5 +15,5 @@
             }
         }
     },
-    "postCreateCommand": "python3 -c 'import ROOT; print(\"ROOT\", ROOT.gROOT.GetVersion(), \"ready\")'"
+    "postCreateCommand": "python3 -c 'import ROOT, pythia8mc; print(\"ROOT\", ROOT.gROOT.GetVersion(), \"and PYTHIA ready\")'"
 }

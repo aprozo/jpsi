@@ -1,0 +1,49 @@
+# Builds the lecture environment, runs both notebooks inside it as a smoke test,
+# and publishes the image to ghcr.io/<owner>/jpsi. Codespaces pulls that image (see .devcontainer/devcontainer.json).
+name: build-image
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".devcontainer/**"
+      - ".github/workflows/build-image.yml"
+      - "part1_invariantMass.ipynb"
+      - "part2_simulation.ipynb"
+      - "data/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Image name
+        run: echo "IMAGE=ghcr.io/${GITHUB_REPOSITORY,,}" >> "$GITHUB_ENV"
+
+      - name: Build
+        run: docker build -t "$IMAGE:latest" -t "$IMAGE:${GITHUB_SHA::8}" .devcontainer
+
+      - name: Smoke test, execute both notebooks inside the image
+        run: |
+          docker run --rm -v "$PWD:/work" -w /work "$IMAGE:latest" bash -c '
+            set -e
+            python3 -c "import ROOT, pythia8mc; print(\"ROOT\", ROOT.gROOT.GetVersion())"
+            for nb in part1_invariantMass part2_simulation; do
+              jupyter nbconvert --to notebook --execute $nb.ipynb --output /tmp/$nb.ipynb --ExecutePreprocessor.timeout=900
+            done'
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push
+        run: docker push --all-tags "$IMAGE"
