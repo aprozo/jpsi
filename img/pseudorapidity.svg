@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="380" viewBox="0 0 560 380" font-family="Helvetica, Arial, sans-serif" font-size="15">
+  <defs>
+    <marker id="ah-gray" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker>
+  </defs>
+  <rect width="560" height="380" fill="white"/>
+  <text x="20" y="30" font-size="18" font-weight="bold" fill="#222">Pseudorapidity  η = −ln tan(θ/2)</text>
+  <text x="20" y="50" font-size="13" fill="#555">side view of the collision point, the beam runs along z</text>
+  <text x="20" y="66" font-size="13" fill="#555">(the other side, z &lt; 0, is a mirror image with η &lt; 0)</text>
+
+  <!-- region seen by CMS muon chambers: |eta| < 2.4 -->
+  <path d="M100,340 L100,70 A270,270 0 0 1 366,291 Z" fill="#1f5fbf" fill-opacity="0.12"/>
+  <!-- region lost close to the beam -->
+  <path d="M100,340 L366,291 A270,270 0 0 1 370,340 Z" fill="#999" fill-opacity="0.35"/>
+
+  <!-- beam axis -->
+  <line x1="30" y1="340" x2="470" y2="340" stroke="#555" stroke-width="2" marker-end="url(#ah-gray)"/>
+  <text x="440" y="362" fill="#333">z (beam)</text>
+  <circle cx="100" cy="340" r="4" fill="#222"/>
+  <text x="60" y="362" font-size="13" fill="#222">collision</text>
+
+  <!-- lines of constant eta -->
+  <g stroke="#333" stroke-width="1.5">
+    <line x1="100" y1="340" x2="100" y2="70"/>
+    <line x1="100" y1="340" x2="225" y2="101"/>
+    <line x1="100" y1="340" x2="306" y2="165"/>
+    <line x1="100" y1="340" x2="344" y2="225"/>
+    <line x1="100" y1="340" x2="360" y2="268"/>
+    <line x1="100" y1="340" x2="366" y2="291" stroke="#d1352b" stroke-width="2.5"/>
+    <line x1="100" y1="340" x2="369" y2="313" stroke="#777"/>
+  </g>
+  <g font-size="14" fill="#222">
+    <text x="108" y="84">η = 0   (θ = 90°)</text>
+    <text x="232" y="98">η = 0.5   (62°)</text>
+    <text x="313" y="163">η = 1   (40°)</text>
+    <text x="351" y="224">η = 1.5   (25°)</text>
+    <text x="367" y="268">η = 2   (15°)</text>
+    <text x="373" y="292" fill="#d1352b" font-weight="bold">η = 2.4   (10°)</text>
+    <text x="376" y="316" fill="#777">η = 3   (6°)</text>
+  </g>
+
+  <!-- labels for the regions -->
+  <text x="108" y="120" fill="#1f5fbf" font-size="14" font-weight="bold">|η| &lt; 2.4</text>
+  <text x="108" y="138" fill="#1f5fbf" font-size="13">seen by</text>
+  <text x="108" y="154" fill="#1f5fbf" font-size="13">CMS</text>
+  <text x="378" y="334" fill="#444" font-size="12">η &gt; 2.4: lost near the beam</text>
+</svg>
